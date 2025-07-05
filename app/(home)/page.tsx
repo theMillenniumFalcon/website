@@ -1,9 +1,9 @@
 import Anchor from '@/app/(home)/anchor';
-import BlogList from '@/components/blog/blog-list';
+// import BlogList from '@/components/blog/blog-list';
 import Link from 'next/link';
 
 export const metadata = {
-  title: 'Andrés Martínez'
+  title: 'Nishank Priydarshi'
 };
 
 export const revalidate = 30;
@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <main className="mb-32 text-neutral-400">
       <h1 className='text-sm font-medium text-stone-100 slide-in-from-top-2 [font-feature-setting:"kern","calt","case"] motion-safe:fade-in'>
-        Andrés Martínez
+        Nishank Priydarshi
       </h1>
-      <p className="text-neutral-500">canelones, uy.</p>
+      <p className="text-neutral-500">bengaluru, in.</p>
 
       <section className="mt-6">
         <p>
@@ -24,15 +24,19 @@ export default function Home() {
           mastering the web one step at a time.
         </p>
         <p className="mt-4">
-          Working as a Senior Software Developer at{' '}
-          <Anchor href="https://qubika.com" target="_blank">
-            Qubika
+          Working as a Software Engineer at{' '}
+          <Anchor href="https://www.upsurge.io" target="_blank">
+            Upsurge Labs
           </Anchor>
-          . Studying Information Systems and Technologies at{' '}
-          <Anchor href="https://www.ort.edu.uy/" target="_blank">
-            ORT University
+          . Building{' '}
+          <Anchor href="https://www.bhindi.io" target="_blank">
+            bhindi.io
           </Anchor>
-          .
+          {' '}and{' '}
+          <Anchor href="https://www.openbio.tech" target="_blank">
+            Openbio
+          </Anchor>
+          {' '}with a team of super cracked engineers.
         </p>
       </section>
 
@@ -65,7 +69,8 @@ export default function Home() {
           design and technology.
         </p>
         <div className="py-4">
-          <BlogList length={3} />
+          {/* <BlogList length={3} /> */}
+          hello
         </div>
       </section>
 
